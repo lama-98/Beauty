@@ -1,0 +1,502 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+body, ul, li, h1, h2, a, p{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+#main{
+    width: 100%;
+    padding: 5% 0%;
+    text-align: center;
+    color: #714239;
+    position: fixed;
+    bottom: 0;
+}
+#pic1 a img, #pic2 a img, #pic3 a img, #pic4 a img{
+    border-radius: 0px 0px 20px 20px;
+}
+#pic1{
+    width: 25%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+#pic2{
+    width: 25%;
+    position: fixed;
+    top: 0;
+    left: 25%;
+}
+#pic3{
+    width: 25%;
+    position: fixed;
+    top: 0;
+    right: 25%;
+}
+#pic4{
+    width: 25%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#pic1 img:hover, #pic2 img:hover, #pic3 img:hover, #pic4 img:hover{
+    position: relative;
+    top: 10px;
+}
+
+
+/* responsive styles  (index)*/
+
+@media (max-width:767.9px){
+    p{
+        font-size: 20px;
+    }
+    #pic1{
+        width: 25%;
+        height: 65%;
+    }
+    #pic2{
+        width: 25%;
+        height: 50%;
+    } 
+    #pic3{
+        width: 25%;
+        height: 58%;
+    } 
+    #pic4{
+        width: 25%;
+        height: 57%;
+    } 
+}
+@media (min-width:768px){
+    p{
+        font-size: 24px;
+    }
+    #pic1{
+        width: 25%;
+        height: 65%;
+    }
+    #pic2{
+        width: 25%;
+        height: 50%;
+    } 
+    #pic3{
+        width: 25%;
+        height: 58%;
+    } 
+    #pic4{
+        width: 25%;
+        height: 57%;
+    }  
+}
+@media (min-width:992px){
+    p{
+        font-size: 26px;
+    }
+    #pic1{
+        width: 25%;
+        height: 65%;
+    }
+    #pic2{
+        width: 25%;
+        height: 50%;
+    } 
+    #pic3{
+        width: 25%;
+        height: 58%;
+    } 
+    #pic4{
+        width: 25%;
+        height: 57%;
+    } 
+}
+@media (min-width:1200px){
+    p{
+        font-size: 28px;
+    }
+    #main{
+        padding: 2% 0%;
+    }
+    #pic1{
+        width: 25%;
+        height: 70%;
+    }
+    #pic2{
+        width: 25%;
+        height: 55%;
+    } 
+    #pic3{
+        width: 25%;
+        height: 63%;
+    } 
+    #pic4{
+        width: 25%;
+        height: 62%;
+    } 
+}
+                                    /* womenwear style */
+
+header{
+    width: 100%;
+    padding: 3%;
+    padding-left: 1%;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+}
+header .hdiv{
+    display: inline;
+    float: left;
+}
+header ul{
+    white-space: nowrap;
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: left;
+
+}
+header ul li{
+    display: inline-block;
+
+}
+.hd1{
+    background-color: indianred;
+}
+header  a{
+    text-decoration: none;
+    color: #4b4b4b;
+}
+header ul li a:hover{
+     position: relative;
+     bottom: 15px;
+}
+header img{
+    width: 6%;
+    border-radius: 50%;
+
+}
+nav{
+    height: 100%;
+    width: 20%;
+    float: left;
+    background-color: #ebdecb;
+    text-align: center;
+    position: fixed;
+    padding-top: 10%;
+}
+nav ul{
+    background-color: #ebdecb;
+    padding-top: 10%;
+}
+nav ul li{
+    list-style-type: none;
+    background-color: #ebdecb;
+}
+nav ul li a{
+    text-decoration: none;
+    background-color: #ebdecb;
+    color: #4b4b4b;
+}
+article{
+    float: right;
+    width: 75%;
+    margin: 10% 5% 3%;
+}
+.slider{
+    width: 100%;
+    margin: 5%;
+}
+.slide{
+    overflow: hidden;
+    float: left;
+    width: 90%;
+    height: 300px;
+    position: relative;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+.prev, .next {
+    float: left;
+    cursor: pointer;
+    width: 5%;
+}
+.content{
+    text-align: center;
+    width: 100%;
+    margin-top: 325px;
+    margin-left: 20px;
+}
+.content li{
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    padding-left: 1%;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.content li img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+}
+.content p{
+    width: 100%;
+    display: inline-block;
+    border-radius: 2px;
+}
+.product{
+    width: 95%;
+    display: inline-block;
+    margin: 10% 5% 0 6%;
+
+}
+.products{
+    width: 95%;
+    display: inline-block;
+    margin: 3% 5% 0 6%;
+}
+.product h1{
+    width: 100%;
+    height: 7%;
+}
+.product span, .products span{
+    display: inline-block;
+    
+}
+.product span p img, .products span p img{
+    width: 100%;
+}
+.product span p, .products span p{
+    text-align: center;
+    color: #4b4b4b;
+    font-family: tahoma;
+
+}
+footer {
+    width: 100%;
+    clear: both;
+    position: relative;
+    bottom: 0;
+}
+footer span{
+    display: inline-block;
+    padding: 2%;
+}
+footer span p{
+    display: inline-block;
+    color: #4b4b4b;
+}
+footer img{
+    height: 8%;
+    border-radius: 50%;
+}
+.end {
+    width: 100%;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    
+}
+.end5 {
+    width: 100%;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    
+}
+.pg1{
+    background-color: indianred;
+    color: antiquewhite;
+}
+
+
+                                /* responsive styles  (pages)*/
+
+@media (max-width:767.9px){
+    .hd1, .hd2, .hd3, .hd4{
+        font-size: 18px;
+        padding-right: 2%;
+    }
+    .pg1, .pg2, .pg3, .pg4{
+        font-size: 22px;
+    }
+    .prev, .next{
+        margin-top: 20%;
+    }
+    .content{
+        height: 200px;
+    }
+    .lia1, .lia2, .lia3{
+        font-weight: normal;
+        position: relative;
+        bottom: 60%;
+    }
+    .product span, .products span{
+        width: 45%;
+        margin-top: 5%;
+    }
+    .product span p img, .products span p img{
+        height: 300px;
+    }
+    .photo2, .photo4{
+        margin-left: 9%;
+    }
+
+    .product span p, .products span p{
+        font-size: 18px;
+    }
+    footer span{
+        width: 30%;
+    }
+    footer span img{
+        width: 15%;
+    }
+}
+@media (min-width:768px){
+    .pg1, .pg2, .pg3,  .pg4{
+        font-size: 26px;
+    }
+    .hd1, .hd2, .hd3, .hd4{
+        padding-left: 1.5%;
+        font-size: 20px;
+    } 
+    nav a{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .prev, .next{
+        margin-top: 15%;
+    }
+    .content{
+        height: 250px;
+    }
+    .lia1, .lia2, .lia3{
+        position: relative;
+        bottom: 60%;
+    }
+    .content p{
+        font-size: 22px;
+    } 
+    .product span, .products span{
+        width: 22%;
+        margin-top: 5%;
+    }
+    .product span p img, .products span p img{
+        height: 250px;
+    }
+    .photo2, .photo3, .photo4{
+        margin-left: 3%;
+    }
+    .product span p, .products span p{
+        font-size: 18px;
+    }
+    footer span{
+        width: 30%;
+    }
+    footer span img{
+        width: 15%;
+    }
+}
+@media (min-width:992px){
+    p{
+        font-size: 26px;
+    }
+    header .pg1, header .pg3, header .pg2, header .pg4{
+        font-size: 28px;
+    } 
+    .hd1, .hd2, .hd3, .hd4{
+        font-size: 24px;
+    }
+    nav ul{
+        padding-top: 15%;
+        font-size: 24px;
+    }
+    .slide{
+        height: 350px;
+    }
+    .prev, .next{
+        margin-top: 10%;
+    }
+    .content{
+        margin-top: 375px;
+    }
+    header img{
+        width: 7%;
+    }
+    .product span p img, .products span p img{
+        height: 330px;
+    }
+}
+@media (min-width:1200px){
+    p{
+        font-size: 28px;
+    } 
+    header .pg1, header .pg2, header .pg3, header .pg4{
+        font-size: 30px;
+    }
+    .pg1, .pg2, .pg3, .pg4{
+        font-size: 28px;
+    } 
+    header .hd1, header .hd2, header .hd3, header .hd4{
+        font-size: 26px;
+        padding-left: 3%;
+    }
+    header img{
+        width: 8%;
+    }
+    .prev, .next{
+        margin-top: 10%;
+    }
+    .product span p, .products span p{
+        font-size: 22px;
+    }
+}
+
+            /* bags style */
+
+.hd3{
+    background-color: #114827;
+    color: #e9d4bf;
+}
+.a3{
+    background-color: #114827;
+    color: #e9d4bf;
+}
+.pg3{
+    background-color: #114827;
+    color: #f3cca6;
+}
+            /* shoes style */
+
+.hd4{
+    background-color: #759183;
+}
+.a4{
+    background-color: #759183;
+    color: #1a2821;
+}
+.pg4{
+    background-color: #759183;
+    color: #c3dcc9;
+}
+            /* makeup style */
+
+.hd2{
+    background-color: #5f3f36;
+    color: #e2caba;
+}
+.a2{
+    background-color: #5f3f36;
+    color: #e2caba;
+}
+.pg2{
+    background-color: #5f3f36;
+    color: #dfb398;
+}
